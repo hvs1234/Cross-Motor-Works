@@ -10,13 +10,13 @@ hide="""
 page_customize= f"""
 <style>
 [data-testid="stAppViewContainer"] > .main{{
-background-image: url("https://preview.redd.it/wc3xjjobjd841.jpg?auto=webp&s=f0524d6bb3d72507e66ad1c9ecf95273b7df9e2e");
+background-image: url("https://cdn.wallpapersafari.com/55/89/oj6M3R.jpg");
 background-size: cover;
 }}
 
 [data-testid="stSidebar"] {{
-background-image: url("https://i.pinimg.com/originals/6a/76/14/6a7614189cf4b7e0cf87dc3d0f9ff1f8.jpg");
-background-size: 50%;
+background-image: url("https://r1.ilikewallpaper.net/iphone-wallpapers/download/17542/Mountains-and-lake-iphone-wallpaper-ilikewallpaper_com.jpg");
+background-size: cover;
 background-repeat: no-repeat;
 background-attachment: fixed;
 }}
