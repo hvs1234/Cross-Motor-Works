@@ -1,16 +1,6 @@
 from streamlit import *
-import plotly.express as px
-import base64
+
 set_page_config(page_icon=":rocket:",page_title="Need For Speed",layout="wide")
-df = px.data.iris()
-
-def get_img_as_base64(file):
-    with open(file, "rb") as f:
-        data = f.read()
-    return base64.b64encode(data).decode()
-
-img = get_img_as_base64("image.webp")
-
 hide="""
    <style>
    #MainMenu {visibility: hidden;}
@@ -26,7 +16,7 @@ background-size: cover;
 }}
 
 [data-testid="stSidebar"] {{
-background-image: url("data:image/png;base64,{img}");
+background-image: url("https://i.pinimg.com/originals/6a/76/14/6a7614189cf4b7e0cf87dc3d0f9ff1f8.jpg");
 background-size: 35%;
 background-repeat: no-repeat;
 background-attachment: fixed;
