@@ -6,7 +6,6 @@ hide="""
    #MainMenu {visibility: hidden;}
    footer {visibility: hidden;}
    header {visibility: hidden;}
-   </style>
 """
 page_customize= f"""
 <style>
@@ -17,7 +16,7 @@ background-size: cover;
 
 [data-testid="stSidebar"] {{
 background-image: url("https://i.pinimg.com/originals/6a/76/14/6a7614189cf4b7e0cf87dc3d0f9ff1f8.jpg");
-background-size: 35%;
+background-size: 50%;
 background-repeat: no-repeat;
 background-attachment: fixed;
 }}
