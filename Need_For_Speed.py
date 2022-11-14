@@ -11,7 +11,7 @@ hide="""
 page_customize= f"""
 <style>
 [data-testid="stAppViewContainer"] > .main{{
-background-image: url("https://file.kelleybluebookimages.com/kbb/base/house/2014/2014-Dodge-Challenger-FrontSide_DOCHALL141_640x480.jpg");
+background-image: url("https://preview.redd.it/wc3xjjobjd841.jpg?auto=webp&s=f0524d6bb3d72507e66ad1c9ecf95273b7df9e2e");
 background-size: cover;
 }}
 
@@ -60,8 +60,6 @@ with container():
    with mid:
       empty() 
    with right:
-      text(". This is a dark theme site")
-      text(". View this template in the dark mode theme in your browser")
       text(". Development of high tech cars")
       text(". Enable all machine modes")
 
