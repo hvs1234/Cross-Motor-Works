@@ -6,11 +6,12 @@ hide="""
    #MainMenu {visibility: hidden;}
    footer {visibility: hidden;}
    header {visibility: hidden;}
+   </style>
 """
 page_customize= f"""
 <style>
 [data-testid="stAppViewContainer"] > .main{{
-background-image: url("https://cdn.wallpapersafari.com/55/89/oj6M3R.jpg");
+background-image: url("https://images.hdqwalls.com/wallpapers/black-dodge-challenger-4k-n8.jpg");
 background-size: cover;
 }}
 
@@ -59,13 +60,10 @@ with container():
    with mid:
       empty() 
    with right:
-      write("Best car dealership")
-      header("Provide Tags")
-      text("Future Development vehicles")
-      title("Royal Cars")
-      text("Automated Technology")
-      header("Fully Electric")
-      header("Takeover a lease")
+      text(". This is a dark theme site")
+      text(". View this template in the dark mode theme in your browser")
+      text(". Development of high tech cars")
+      text(". Enable all machine modes")
 
 write("---")
 header(":bulb: Details")
@@ -162,7 +160,7 @@ write("---")
 write("""### 
 ### 6. Rolls Royce :oncoming_automobile:
 ### . Model Name: Rolls-Royce Phantom 
-### . Company Name: Ford
+### . Company Name: Rolls-Royce Ltd.
 ### . HP: 414
 ### . Price: $11,17,950 :dollar:
 """)
