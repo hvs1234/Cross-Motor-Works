@@ -11,7 +11,7 @@ hide="""
 page_customize= f"""
 <style>
 [data-testid="stAppViewContainer"] > .main{{
-background-image: url("https://images.hdqwalls.com/wallpapers/black-dodge-challenger-4k-n8.jpg");
+background-image: url("https://file.kelleybluebookimages.com/kbb/base/house/2014/2014-Dodge-Challenger-FrontSide_DOCHALL141_640x480.jpg");
 background-size: cover;
 }}
 
